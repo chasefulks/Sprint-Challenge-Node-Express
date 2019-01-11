@@ -20,19 +20,29 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 In this challenge, create a web API around the following resources: `Projects` and `Actions`.
 
+
+
 ## Self-Study/Essay Questions
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Mention two parts of Express that you learned about this week.
+    routing and helpers
 
 - [ ] Describe Middleware?
+    support functions that are also compatable with the connect that redux uses on front end
 
 - [ ] Describe a Resource?
+    whatever data is called and managed by our web api backend
 
 - [ ] What can the API return to help clients know if a request was successful?
+    depending on the method it cn return 200 for good 201 for created and etc.
 
 - [ ] How can we partition our application into sub-applications?
+    by using require() and exporting 
+
+
+
 
 ## Project Setup
 
